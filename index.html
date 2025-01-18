@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank's Portfolio</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "11WocU3xPV1u9HF-1",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Theme Toggle Button  -->
+    <!-- Make it in the last -->
+    <input type="checkbox" id="theme-toggle-btn" class="theme-toggle-checkbox">
+    <label class="theme-toggle-btn" for="theme-toggle-btn"></label>
+
+    <section class="body">
+        <!-- Header Section -->
+        <header id="home" class="container">
+            <!-- Logo -->
+            <p class="logo"><a href="index.html">Portfolio<span>.</span></a></p>
+            <!-- Desktop Navbar -->
+            <nav class="desktop-nav">
+                <ul class="header-desktop-navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Desktop Navbar -->
+            <nav class="mobile-nav">
+                <input type="checkbox" id="mobile-nav-check">
+                <label for="mobile-nav-check" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
+                <ul class="header-mobile-navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header Section -->
+
+        <!-- Main Section  -->
+        <main class="container">
+            <!-- Hero or Home Section -->
+            <section class="hero">
+                <article>
+                    <p class="designation">Full Stack Developer,</p>
+                    <h1 class="heading">Hello I'm <span class="author-name">Mayank M Jain</span></h1>
+                    <p class="summary">I'm passionate about developing full stack applications. Loves to explore tech.
+                    </p>
+                    <div class="buttons">
+                        <a class="resume-btn"
+                            href="https://drive.google.com/file/d/1ZCF43MLjv2kBiY6Q-gdL7arMrkV4NqE6/view?usp=drive_link"
+                            target="_blank"><button class="download-resume-btn">Download Resume</button></a>
+                        <ul class="contact-me-social-media-icons">
+                            <a title="LinkedIn" href="https://www.linkedin.com/in/mayank-mahavir-jain-9098651a9/"
+                                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a title="Github" href="https://github.com/mmj030703" target="_blank"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                            <a title="Twitter" href="https://x.com/mmj030703" target="_blank"><i
+                                    class="fa-brands fa-square-x-twitter"></i></a>
+                            <a title="Instagram" href="https://www.instagram.com/mmj_030703/" target="_blank"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                        </ul>
+                    </div>
+                </article>
+                <figure>
+                    <div class="portfolio-image-background"></div>
+                    <img class="portfolio-image" src="./resources/mayank img.jpg" alt="Mayank's Photo">
+                </figure>
+            </section>
+            <!-- Hero Section -->
+
+            <!-- About Me Section -->
+            <section id="about" class="about-me-section">
+                <h1 class="about-heading">About <span>Me</span></h1>
+                <section class="about-me-content">
+                    <figure>
+                        <img class="about-me-my-image" src="./resources/mayank img.jpg" alt="Mayank's Image">
+                    </figure>
+                    <article class="about-me-content-text">
+                        <input type="checkbox" id="read-more-checkbox" class="read-more-checkbox"></input>
+                        <label for="read-more-checkbox" class="read-more-btn">Read More</label>
+                        <label for="read-more-checkbox" class="read-less-btn">Read Less</label>
+                        <article>
+                            <p class="para-1">
+                                I am a Full Stack Developer, graduated in 2024, with knowledge of technologies like
+                                Node.js, Express.js, React.js,
+                                MongoDB, Redux Toolkit, Tailwind CSS, and JavaScript. I have built projects showcasing
+                                my ability to create functional
+                                web applications, handle APIs, and design user-friendly interfaces using HTML & CSS.
+
+                                Eager to apply my skills and grow in a collaborative environment while delivering
+                                practical and effective solutions.
+                            </p>
+                            <p class="para-2">I have completed my full stack web development course by internshala.</p>
+                            <p class="para-3">Video Sharing App, Online Library Store, Weather App, Shopping React App,
+                                etc are some of the major projects which I have developed.
+                            </p>
+                            <p class="para-4">
+                                This is my portfolio, you can explore it and can know me better. If you want to contact
+                                me than links are available in the contact section.
+                            </p>
+                        </article>
+                    </article>
+                </section>
+            </section>
+
+            <!-- About Me Section -->
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section">
+                <h1 class="skills-heading">Skills</h1>
+                <section class="skills-content">
+                    <article class="skill skill-1" title="NodeJS">
+                        <img src="./resources/skill 1 - nodejs.png" alt="Skill 1 - NodeJS" height="200px" width="200px">
+                        <p>NodeJS</p>
+                    </article>
+                    <article class="skill skill-2" title="ExpressJS">
+                        <img src="./resources/skill 2 - express.png" alt="Skill 2 - ExpressJS" height="200px"
+                            width="200px">
+                        <p>ExpressJS</p>
+                    </article>
+                    <article class="skill skill-3" title="MongoDB">
+                        <img src="./resources/skill 3 - mongodb.png" alt="Skill 3 - MongoDB" height="200px"
+                            width="200px">
+                        <p>MongoDB</p>
+                    </article>
+                    <article class="skill skill-4" title="ReactJS">
+                        <img src="./resources/skill 4 - react.png" alt="Skill 4 - ReactJS" height="200px" width="200px">
+                        <p>ReactJS</p>
+                    </article>
+                    <article class="skill skill-5" title="JavaScript">
+                        <img src="./resources/skill 5 - javascript.png" alt="Skill 5 - JavaScript" height="200px"
+                            width="200px">
+                        <p>JavaScript</p>
+                    </article>
+                    <article class="skill skill-6" title="Tailwind CSS">
+                        <img src="./resources/skill 6 - tailwind.png" alt="Skill 6 - Tailwind CSS" height="200px"
+                            width="200px">
+                        <p>Tailwind CSS</p>
+                    </article>
+                    <article class="skill skill-7" title="HTML">
+                        <img src="./resources/skill 7 - html.png" alt="Skill 7 - HTML" height="200px" width="200px">
+                        <p>HTML</p>
+                    </article>
+                    <article class="skill skill-8" title="CSS">
+                        <img src="./resources/skill 8 - css.png" alt="Skill 8 - CSS" height="200px" width="200px">
+                        <p>CSS</p>
+                    </article>
+                    <article class="skill skill-9" title="GIT">
+                        <img src="./resources/skill 9 - git.png" alt="Skill 9 - GIT" height="200px" width="200px">
+                        <p>GIT</p>
+                    </article>
+                </section>
+            </section>
+            <!-- Skills Section -->
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="certifications-section">
+                <h1 class="certifications-heading">Certifications</h1>
+                <section class="certifications-content">
+                    <article class="certificate certificate-1">
+                        <img src="./resources/internshala certificate.png" alt="Certificate 1">
+                        <article>
+                            <h2 class="heading">Internshala FullStack Course</h2>
+                            <p class="summary">The certificate is given for successfully completing the full stack
+                                course conducted
+                                by Internshala.</p>
+                            <a href="https://drive.google.com/file/d/1xC9XCodHRsxzRTC3Ib49w2NnLuEPxHAo/view?usp=drive_link"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                    <article class="certificate certificate-2">
+                        <img src="./resources/react certificate.png" alt="Certificate 2">
+                        <article>
+                            <h2 class="heading">ReactJS by NamasteDev</h2>
+                            <p class="summary">The certificate is given for successfully completing the React Course by
+                                Namaste Dev (Akshay Saini).</p>
+                            <a href="https://drive.google.com/file/d/1mG2LeLypPLRKyF2_OUFGzP4zoZSHwT5Q/view?usp=drive_link"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                </section>
+            </section>
+            <!-- Certifications Section -->
+
+            <!-- Project Section -->
+            <section id="projects" class="projects-section">
+                <h1 class="projects-heading">Projects</h1>
+                <section class="projects-content">
+                    <article class="project project-1">
+                        <p class="number">01</p>
+                        <h2 class="heading">Video Sharing App</h2>
+                        <p class="summary">
+                            Video Sharing App is a MERN-based Video Sharing Platform that allows users to upload videos,
+                            view videos, and manage their videos
+                            library. It delivers a user-friendly interface for viewing and organizing videos.
+                        </p>
+                        <p class="tech-stack">Mern Stack</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link" href="https://vidionix.vercel.app" class="live-btn" target="_blank"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/mmj030703/Video-Sharing-App" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-2">
+                        <p class="number">02</p>
+                        <h2 class="heading">Online Library System</h2>
+                        <p class="summary">
+                            Built a real-time chat app with the MERN stack, featuring user authentication, message
+                            history, and responsive design.
+                        </p>
+                        <p class="tech-stack">Mern Stack</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link" href="https://online-library-system-mmj030703.onrender.com/"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/mmj030703/Online-Library-System"
+                                target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-3">
+                        <p class="number">03</p>
+                        <h2 class="heading">Weather App</h2>
+                        <p class="summary">
+                            Created a weather app with HTML, CSS, and JavaScript, displaying real-time weather updates
+                            and forecasts.
+                        </p>
+                        <p class="tech-stack">HTML, CSS & JavaScript</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="https://mmj030703.github.io/Internshala-JavaScript-Project-1---Weather-Application/"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github"
+                                href="https://github.com/mmj030703/Internshala-JavaScript-Project-1---Weather-Application"
+                                target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-4">
+                        <p class="number">04</p>
+                        <h2 class="heading">Shopping React App</h2>
+                        <p class="summary">
+                            Developed a movies app using HTML, CSS, and JavaScript to browse and search for films with
+                            detailed information.
+                        </p>
+                        <p class="tech-stack">React</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link" href="https://internshala-project-react-shoppy-globe.vercel.app/"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/mmj030703/Internshala-Project-React-ShoppyGlobe"
+                                target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-5">
+                        <p class="number">05</p>
+                        <h2 class="heading">MultiStep Form React App</h2>
+                        <p class="summary">
+                            The Multistep Form is a user-friendly web application developed using React.js, Redux
+                            Toolkit, and Tailwind CSS. It's
+                            designed for ensuring a seamless experience for users as they navigate through the form.
+                        </p>
+                        <p class="tech-stack">React</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link" href="https://multistep-form-app.netlify.app/" class="live-btn"
+                                target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/mmj030703/Multistep-Form" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <!-- Project Section -->
+
+            <!-- Contact Me Section -->
+            <section id="contact" class="contact-section">
+                <h1 class="contact-heading">Contact <span>Me</span></h1>
+                <section class="contact-content">
+                    <form class="contact-form" action="">
+                        <div class="top-level-form-field">
+                            <div class="form-field">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" minlength="4" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="12" cols="30" name="message" minlength="1" required></textarea>
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                    <section class="social-media-icons">
+                        <a class="social-media-icon" title="Email Me" href="mailto:mmj04467@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                            Email Me
+                        </a>
+                        <a class="social-media-icon" title="LinkedIn"
+                            href="https://www.linkedin.com/in/mayank-mahavir-jain-9098651a9/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            LinkedIn
+                        </a>
+                        <a class="social-media-icon" title="Github" href="https://github.com/mmj030703" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            Github
+                        </a>
+                        <a class="social-media-icon" title="Twitter" href="https://x.com/mmj030703" target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            Twitter
+                        </a>
+                        <a class="social-media-icon" title="Instagram" href="https://www.instagram.com/mmj_030703/"
+                            target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </section>
+                </section>
+            </section>
+
+            <!-- Contact Me Section -->
+
+        </main>
+        <!-- Main Section  -->
+
+        <!-- Footer Section -->
+        <footer>
+            <!-- Footer Navigation Links -->
+            <nav class="footer-navigation-links">
+                <p>Navigation Links</p>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="social-media-icons">
+                <a class="social-media-icon" title="Call Me" href="+917738429780" target="_blank">
+                    <i class="fa-solid fa-phone"></i>
+                    Call
+                </a>
+                <a class="social-media-icon" title="Email Me" href="mailto:mayankjain04467@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email Me
+                </a>
+            </section>
+
+            <p class="footer-copyright-message">Copyright <span>&copy;</span> Mayank M Jain 2025</p>
+        </footer>
+        <!-- Footer Section -->
+
+        <!-- Move to top Button  -->
+        <a title="Move to Top" href="#home" class="move-to-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+
+    <script type="text/javascript">
+        const nameInput = document.querySelector('#name');
+        const emailInput = document.querySelector('#email');
+        const messageInput = document.querySelector('#message');
+
+        window.onload = function () {
+            document.querySelector('.contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_7rpeymj', 'template_wa1u88f', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                        nameInput.value = "";
+                        emailInput.value = "";
+                        messageInput.value = "";
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</body>
+
+</html>
